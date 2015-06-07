@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+
+ruby '1.9.3'
+
+group :test do
+  gem 'rspec', :require => 'spec'
+  # gem 'pry'
+  # gem 'pry-debugger' 
+  ## require 'pry-debugger'
+  ## binding.pry as your debugger point, next/finish/step/continue
+end
